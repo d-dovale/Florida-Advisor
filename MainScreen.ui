@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainScreen</class>
+ <widget class="QDialog" name="MainScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>The Floridians Guide</string>
+  </property>
+  <widget class="Line" name="s1Line">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>110</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: rgba(49, 102, 134, 160);
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/482680.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>60</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/imageedit_5_2399167536.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="mainframe">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>641</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgba(217, 218, 199, 120);
+	border-radius: 30px;
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>120</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nexa Bold</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(58, 128, 162);
+	border: none;
+	padding-top: 5px;
+	color: rgb(226, 234, 216);
+	border-radius: 20px;
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-bottom: 4px solid rgb(45, 101, 127);
+
+}
+QPushButton:hover {
+	background-color: rgb(63, 141, 177);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-radius: 20px;
+	border-bottom: 4px solid rgb(51, 115, 145);
+
+}
+
+QPushButton:pressed {
+	background-color: rgb(51, 115, 145);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-top: 5px solid rgb(45, 101, 127);
+	border-radius: 20px;
+	padding-top: -5x;
+	border-bottom: none;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>SEARCH</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="typeLocation">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgb(203, 203, 203);
+	border-radius: 5px;
+	
+	
+
+}
+
+	</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Location</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>North Florida</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Central Florida</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>South Florida</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="typeChoice">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgb(203, 203, 203);
+	border-radius: 5px;
+	
+	
+
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nature</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>History and Culture</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Food</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Family</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="typePrice">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgb(203, 203, 203);
+	border-radius: 5px;
+	
+	
+
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Price</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Free</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>$</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>$$</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>$$$</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="typeTime">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>190</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgb(203, 203, 203);
+	border-radius: 5px;
+	
+	
+
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Time</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Night</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>All Day</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="typeAmenities">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgb(203, 203, 203);
+	border-radius: 5px;
+	
+	
+
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Internet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wifi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>No Wifi</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Verdana</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: rgb(99, 99, 99);
+	border: none;
+	padding-top: 5px;
+	color: rgb(226, 234, 216);
+	border-radius: 20px;
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-bottom: 4px solid rgb(110, 114, 76);
+
+}
+QPushButton:hover {
+	background-color: rgb(134, 134, 134);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-radius: 20px;
+	border-bottom: 4px solid rgb(110, 114, 76);
+
+}
+
+QPushButton:pressed {
+	background-color: rgb(80, 80, 80);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-top: 5px solid rgb(110, 114, 76);
+	border-radius: 20px;
+	padding-top: -5x;
+	border-bottom: none;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>←</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>70</y>
+     <width>501</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/attration generator.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>s1Line</zorder>
+  <zorder>title_2</zorder>
+  <zorder>mainframe</zorder>
+  <zorder>backButton</zorder>
+  <zorder>title</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

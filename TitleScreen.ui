@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TitleScreen</class>
+ <widget class="QDialog" name="TitleScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>The Floridians Guide</string>
+  </property>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>130</y>
+     <width>591</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/title.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="pixmap">
+    <pixmap>Images/482680.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QFrame" name="mainframe">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>270</y>
+     <width>461</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgba(217, 218, 199, 120);
+	border-radius: 30px;
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nexa Bold</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(58, 128, 162);
+	border: none;
+	padding-top: 5px;
+	color: rgb(226, 234, 216);
+	border-radius: 20px;
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-bottom: 4px solid rgb(45, 101, 127);
+
+}
+QPushButton:hover {
+	background-color: rgb(63, 141, 177);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-radius: 20px;
+	border-bottom: 4px solid rgb(51, 115, 145);
+
+}
+
+QPushButton:pressed {
+	background-color: rgb(51, 115, 145);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-top: 5px solid rgb(45, 101, 127);
+	border-radius: 20px;
+	padding-top: -5x;
+	border-bottom: none;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="helpButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nexa Bold</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(58, 128, 162);
+	border: none;
+	padding-top: 5px;
+	color: rgb(226, 234, 216);
+	border-radius: 20px;
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-bottom: 4px solid rgb(45, 101, 127);
+
+}
+QPushButton:hover {
+	background-color: rgb(63, 141, 177);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-radius: 20px;
+	border-bottom: 4px solid rgb(51, 115, 145);
+
+}
+
+QPushButton:pressed {
+	background-color: rgb(51, 115, 145);
+	border-left: 1px solid rgb(110, 114, 76);
+	border-right: 1px solid rgb(110, 114, 76);
+	border-top: 5px solid rgb(45, 101, 127);
+	border-radius: 20px;
+	padding-top: -5x;
+	border-bottom: none;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Help</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>title</zorder>
+  <zorder>mainframe</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
