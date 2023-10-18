@@ -9,8 +9,7 @@
 
 ### Built With
 
-* [![Python][][]
-* [![React][React.js]][React-url]
+* ![Python]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +100,7 @@ Kevin Cue - kcue2504@gmail.com
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[Python]: https://img.shields.io/badge/Python-
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
