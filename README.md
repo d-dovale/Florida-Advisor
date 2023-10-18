@@ -1,9 +1,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-* Florida Advisor is a program for tourists planning on going to Florida who want to find tourist attractions based on their needs
-* Could be run only on Windows
-* Made using Python and the library PYQT5 to create the GUI interface
+
+Florida Advisor is a state-of-the-art PC application tailored specifically for tourists planning a trip to Florida. It offers a streamlined process to discover and plan visits to exciting attractions in the Sunshine State. Here are some key highlights:
+
+* **Tailored for Tourists**: Designed with Florida tourists in mind, it simplifies the process of planning and discovering attractions.
+Award-Winning: Proudly secured the 4th place at the national level in the Future Business Leaders of America competition in 2022.
+* **Sleek GUI**: Achieved a sleek and intuitive GUI through strategic design and implementation of the PYQT5 library.
+* Easy Installation: Engineered a user-friendly installer (exe) file that ensures hassle-free download and installation of the necessary files.
+* **Platform Compatibility**: Exclusively designed for Windows users.
+* **Tech Stack**: Developed using Python and the PYQT5 library for the GUI interface.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
