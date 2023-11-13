@@ -54,15 +54,12 @@ _We include an the Florida Advisor Installer.exe file to install the program tho
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Pictures
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<img src="Images/screenshots/Screenshot_7.png" width="500" height="299" />
+<img src="Images/screenshots/Screenshot_1.png" width="500" height="299" />
+<img src="Images/screenshots/Screenshot_2.png" width="490" height="299" />
+<img src="Images/screenshots/Screenshot_3.png" width="500" height="299" />
 
 <!-- CONTACT -->
 ## Contact
